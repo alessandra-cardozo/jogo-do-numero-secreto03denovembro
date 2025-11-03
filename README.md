@@ -1,7 +1,5 @@
 JS Game - Número Secreto 🎮
 
-![Banner do Jogo](./img/game_banner.png)
-
 ## Descrição do Projeto
 
 O **JS Game - Número Secreto** é um jogo interativo onde o jogador deve adivinhar um número aleatório entre **1 e 50**.
@@ -52,7 +50,7 @@ Estrutura do Projeto
 
 ---
 
-## Funcionalidades
+Funcionalidades
 
 ### 1. Jogabilidade
 
