@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game - Número Secreto</title>
+</head>
+
+<body>
+
+    <div class="theme-toggle" aria-label="Alternar tema claro/escuro" role="button" tabindex="0">🌙</div>
+
+    <div class="container">
+        <div class="container__conteudo">
+
+            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1 id="titulo">Adivinhe o <span class="container__texto-azul">número secreto</span></h1>
+                    <p class="texto__paragrafo" id="mensagem-inicial">Escolha um número entre 1 a 50</p>
+                </div>
+
+                <input type="number" min="1" max="50" class="container__input" id="input-chute" aria-label="Digite seu chute">
+
+                <div class="chute container__botoes">
+                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                </div>
+
+                <!-- Barra de progresso de tentativas -->
+                <div class="barra-tentativas" aria-label="Barra de progresso das tentativas">
+                    <div id="progress-tentativas"></div>
+                </div>
+
+                <div class="historico" aria-label="Histórico de tentativas">
+                    <h2>Histórico de tentativas:</h2>
+                    <ul id="lista-tentativas"></ul>
+                </div>
+
+                <div class="recorde" aria-label="Recorde de menor número de tentativas">
+                    <h2>Recorde: <span id="recorde">—</span> tentativas</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
