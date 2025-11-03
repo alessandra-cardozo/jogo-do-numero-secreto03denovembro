@@ -86,8 +86,6 @@ Gradiente de **azul → vermelho**, indicando proximidade do limite.
 O menor número de tentativas é salvo no **localStorage**.
 Exibido na tela, incentivando o jogador a melhorar seu recorde.
 
-![Recorde de menor número de tentativas](./img/recorde.png)
-
 ---
 
 6. Tema Claro/Escuro
