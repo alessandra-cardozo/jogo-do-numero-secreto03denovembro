@@ -1,4 +1,4 @@
-# JS Game - Número Secreto 🎮
+JS Game - Número Secreto 🎮
 
 ![Banner do Jogo](./img/game_banner.png)
 
@@ -29,7 +29,7 @@ O jogo combina **interatividade, acessibilidade e diversão**, incluindo:
 
 ---
 
-## Estrutura do Projeto
+Estrutura do Projeto
 
 ```
 /projeto-js-game
@@ -81,7 +81,7 @@ Permite ao jogador acompanhar os números já testados.
 
 ---
 
-### 4. Barra de Progresso
+4. Barra de Progresso
 
 Mostra visualmente quantas tentativas foram usadas.
 Gradiente de **azul → vermelho**, indicando proximidade do limite.
@@ -90,7 +90,7 @@ Gradiente de **azul → vermelho**, indicando proximidade do limite.
 
 ---
 
-### 5. Recorde
+5. Recorde
 
 O menor número de tentativas é salvo no **localStorage**.
 Exibido na tela, incentivando o jogador a melhorar seu recorde.
@@ -99,7 +99,7 @@ Exibido na tela, incentivando o jogador a melhorar seu recorde.
 
 ---
 
-### 6. Tema Claro/Escuro
+6. Tema Claro/Escuro
 
 Clique no botão 🌙 para alternar entre tema claro e escuro.
 Também funciona com teclado (Enter).
@@ -108,7 +108,7 @@ Também funciona com teclado (Enter).
 
 ---
 
-### 7. Acessibilidade
+7. Acessibilidade
 
 * Inputs e botões com **ARIA labels**
 * Compatível com leitores de tela
@@ -116,7 +116,7 @@ Também funciona com teclado (Enter).
 
 ---
 
-## Como Jogar
+Como Jogar
 
 1. Abra `index.html` no navegador.
 2. Digite um número entre **1 e 50**.
@@ -128,7 +128,7 @@ Também funciona com teclado (Enter).
 
 ---
 
-## Personalização
+Personalização
 
 * Alterar **intervalo de números**: modifique `numeroLimite` no `app.js`.
 * Alterar **máximo de tentativas**: modifique `maxTentativas` no `app.js`.
@@ -137,14 +137,14 @@ Também funciona com teclado (Enter).
 
 ---
 
-## Responsividade
+Responsividade
 
 * Layout adaptável para **desktop, tablet e celular**.
 * Elementos reorganizam-se para manter boa visualização.
 
 ---
 
-## Futuras Melhorias
+Futuras Melhorias
 
 * Sons de efeito ao acertar ou errar
 * Barra de progresso com **gradiente animado**
@@ -153,7 +153,7 @@ Também funciona com teclado (Enter).
 
 ---
 
-## Créditos
+Créditos
 
 * Desenvolvido por **Alessandra Cardozo**
 * Voz em português via **ResponsiveVoice.js**
