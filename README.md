@@ -57,7 +57,6 @@ Funcionalidades
 Digite um número entre **1 e 50** e clique em **Chutar** ou pressione **Enter**.
 O jogo informa se o número secreto é maior ou menor.
 
-![Tela inicial do jogo](./img/game_start.png)
 
 ---
 
@@ -66,8 +65,6 @@ O jogo informa se o número secreto é maior ou menor.
 Máximo de **10 tentativas** por rodada.
 Ao atingir o limite sem acertar, o jogo mostra **o número correto**.
 
-![Fim de jogo mostrando o número secreto](./img/game_over.png)
-
 ---
 
 ### 3. Histórico de Tentativas
@@ -75,16 +72,12 @@ Ao atingir o limite sem acertar, o jogo mostra **o número correto**.
 Cada chute é registrado em uma lista abaixo do input.
 Permite ao jogador acompanhar os números já testados.
 
-![Histórico de tentativas](./img/historico.gif)
-
 ---
 
 4. Barra de Progresso
 
 Mostra visualmente quantas tentativas foram usadas.
 Gradiente de **azul → vermelho**, indicando proximidade do limite.
-
-![Barra de progresso](./img/progress_bar.gif)
 
 ---
 
@@ -101,8 +94,6 @@ Exibido na tela, incentivando o jogador a melhorar seu recorde.
 
 Clique no botão 🌙 para alternar entre tema claro e escuro.
 Também funciona com teclado (Enter).
-
-![Tema claro e escuro](./img/theme_toggle.gif)
 
 ---
 
